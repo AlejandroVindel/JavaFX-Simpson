@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorAlert">
+   <children>
+      <ImageView fitHeight="403.0" fitWidth="620.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/AlertHomer.jpg" />
+         </image>
+      </ImageView>
+      <Text focusTraversable="true" layoutX="14.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEBES INTRODUCIR UN NOMBRE PARA CONTINUAR" textAlignment="CENTER" wrappingWidth="307.1171875">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="111.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡TONTO!">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="botonalert" layoutX="124.0" layoutY="323.0" mnemonicParsing="false" onAction="#salir" style="-fx-background-radius: 5px; -fx-border-radius: 5px; -fx-border-width: 5px; -fx-background-color: white;" text="VOLVER">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

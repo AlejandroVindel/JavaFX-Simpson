@@ -1,0 +1,62 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#btHomer{
+	-fx-opacity: 0%;
+	-fx-transition-duration: 0.2s;
+}
+
+#btHomer:hover{
+	
+	-fx-opacity: 100%;
+}
+
+.slider .thumb {
+    -fx-background-image :url("dona.png");
+    -fx-padding: 25;
+    -fx-background-color: transparent;
+}
+
+.slider .thumb:hover{
+	-fx-width: 30px;
+}
+
+.slider .track {
+	-fx-background-color: #FF69B4;
+	-fx-border-style:5px solid black;
+}
+
+#btLisa{
+    -fx-opacity: 0%;
+}
+
+#btLisa:hover{
+    -fx-opacity: 100%;
+}
+
+#btReverendo{
+    -fx-opacity: 0%;
+}
+#btReverendo:hover{
+    -fx-opacity: 100%;
+}
+
+#btJeff{
+    -fx-opacity: 0%;
+}
+
+#btJeff:hover{
+    -fx-opacity: 100%;
+}
+
+#bfDuff{
+    -fx-opacity: 0%;
+}
+
+#btDuff:hover{
+    -fx-opacity: 100%;
+}
+
+.TextField {
+	-fx-font-family: "Franklin Gothic Demi Cond";
+	    -fx-font-size: 28pt;
+}

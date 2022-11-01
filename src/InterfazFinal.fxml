@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorFinal">
+   <children>
+      <ImageView fitHeight="827.0" fitWidth="1597.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/finalfondo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPersonaje" fitHeight="541.0" fitWidth="541.0" layoutX="159.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="923.0" fitWidth="1279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/tele.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

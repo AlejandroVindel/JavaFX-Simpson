@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorPreguntas2">
+   <children>
+      <ImageView fitHeight="827.0" fitWidth="1438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/1jeff.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="lbl3" layoutX="373.0" layoutY="237.0" prefHeight="70.0" prefWidth="519.0" stylesheets="@../bin/application/application.css">
+         <effect>
+            <DropShadow />
+         </effect></Slider>
+      <Slider fx:id="lbl4" layoutX="390.0" layoutY="601.0" prefHeight="70.0" prefWidth="519.0" stylesheets="@../bin/application/application.css">
+         <effect>
+            <DropShadow />
+         </effect></Slider>
+      <ImageView id="btnSiguiente2" fx:id="imgSiguiente" fitHeight="150.0" fitWidth="200.0" layoutX="1047.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/siguiente.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btTerminar" layoutX="1045.0" layoutY="50.0" mnemonicParsing="false" onAction="#salirPreguntas2" prefHeight="57.0" prefWidth="209.0" style="-fx-background-color: #ffffff00;" />
+      <Label fx:id="lb3" layoutX="373.0" layoutY="78.0" prefHeight="100.0" prefWidth="519.0" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="25.0" />
+         </font></Label>
+      <Label fx:id="lb4" layoutX="380.0" layoutY="444.0" prefHeight="100.0" prefWidth="519.0" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="25.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

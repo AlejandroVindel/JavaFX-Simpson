@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1279.0" stylesheets="@../bin/application/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorPrograma">
+   <children>
+      <ImageView fitHeight="873.0" fitWidth="1279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/springfild.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btHomer" fitHeight="124.0" fitWidth="86.0" layoutX="57.0" layoutY="41.0" onMouseClicked="#mostrarHomer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/manoiz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btJeff" fitHeight="82.0" fitWidth="76.0" layoutX="465.0" layoutY="138.0" onMouseClicked="#mostrarJeff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/manoar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btLisa" fitHeight="110.0" fitWidth="86.0" layoutX="672.0" layoutY="261.0" onMouseClicked="#mostrarLisa" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/manoiz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btReverendo" fitHeight="115.0" fitWidth="70.0" layoutX="605.0" layoutY="570.0" onMouseClicked="#mostrarDuff" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/manoar.png" />
+         </image>
+      </ImageView>
+      <ImageView id="btReverendo" fx:id="btDuff" fitHeight="106.0" fitWidth="70.0" layoutX="206.0" layoutY="633.0" onMouseClicked="#mostrarReverendo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/manoab.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

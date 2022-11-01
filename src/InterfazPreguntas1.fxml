@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorPreguntas">
+   <children>
+      <ImageView fitHeight="827.0" fitWidth="1438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/1homer.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="lbl1" layoutX="373.0" layoutY="237.0" prefHeight="70.0" prefWidth="519.0" stylesheets="@../bin/application/application.css">
+         <effect>
+            <DropShadow />
+         </effect></Slider>
+      <Slider fx:id="lbl2" layoutX="405.0" layoutY="601.0" prefHeight="70.0" prefWidth="519.0" stylesheets="@../bin/application/application.css">
+         <effect>
+            <DropShadow />
+         </effect></Slider>
+      <ImageView id="btnSiguiente1" fx:id="imgSiguiente" fitHeight="150.0" fitWidth="200.0" layoutX="1047.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/siguiente.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btTerminar" layoutX="1040.0" layoutY="50.0" mnemonicParsing="false" onAction="#salirPreguntas" prefHeight="57.0" prefWidth="215.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 10PX; -fx-border-width: 0px; -fx-background-image: file:C:\Users\dme22\eclipse-workspace\PF\src\img\siguiente.png;" textFill="#ebdb00">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="28.0" />
+         </font></Button>
+      <Label fx:id="lb1" layoutX="373.0" layoutY="78.0" prefHeight="100.0" prefWidth="519.0" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="25.0" />
+         </font></Label>
+      <Label fx:id="lb2" layoutX="380.0" layoutY="444.0" prefHeight="100.0" prefWidth="519.0" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="25.0" />
+         </font></Label>
+      <ImageView fitHeight="90.0" fitWidth="483.0" layoutX="391.0" layoutY="205.0" opacity="0.21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/lvl.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="483.0" layoutX="423.0" layoutY="568.0" opacity="0.21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/lvl.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
